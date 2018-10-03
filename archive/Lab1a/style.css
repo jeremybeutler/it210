@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg");
+}
+
+a {
+    color: #0075F2;
+}
+
+h2 {
+    font-family: Oswald;
+}
+
+footer{
+    position: absolute;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#navbar {
+    background-color:  #C1C1C1;
+    height: 25px;
+    transition: height 0.5s;
+    transition-timing-function: ease;
+}
+
+#navbar:hover {
+    height: 50px;
+}
+
+#navbar:hover #sitelist {
+    padding-top: 15px;
+}
+
+#sitelist {
+	text-align: center;
+	transition: padding-top 0.5s ease;
+}
+
+.content {
+    padding: 0 10px 10px 10px;
+    margin-top: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+}
+
+#byu-img {
+    padding: 5px;
+    transition: transform .5s;
+
+}
+
+#byu-img:hover {
+    position: relative;
+    transform: scale(1.5);
+}
